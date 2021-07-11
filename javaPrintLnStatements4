@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+public class JavaPrintStatements2 {
+
+    public static void main(String[] args) {
+  //Program that prints the difference and product and sum  of the numbers using scanner provi
+        //Using scanners 
+
+       // difference of two integers = 45 + 32
+       // product of two integers = 45-32        
+        
+        Scanner in = new Scanner(System.in);
+        System.out.print(" Enter first integer: ");
+        int firstInt = in.nextInt();
+        System.out.print("Enter second integer: ");
+        int secondInt = in.nextInt();
+        System.out.printf("Sum of two integers: %d%n", firstInt + secondInt);
+        System.out.printf("Product of two integers: %d%n", firstInt * secondInt);
+        System.out.printf("Difference of two integers: %d%n", firstInt - secondInt);
+        // This program prints the difference ,sum., and product of integers after inputing them in the screen
+        ///   
+/**
+ * here is how the out put looks like
+ * Lets input first integer: 70
+        Lets input second integer: 20
+        Sum of two integers: 90
+        Product of two integers: 1400
+        Difference of two integers: 50
+
+      */  
+
+    }
+
+}
